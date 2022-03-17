@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.icono {
+  font-size: 25px;
+}
+
+/* ! Clase Default */
+.default {
+  display: block;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #f85c70;
+  display: flex;
+  flex-direction: column;
+
+  width: 260px;
+  height: 7vh;
+}
+.default .icono {
+  position: absolute;
+  top: 0;
+}
+.default .letras {
+  display: none;
+}
+.default .letras-title {
+  position: absolute;
+
+  bottom: 0;
+}
+/* ! Default Dr */
+.defaultDr {
+  display: block;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgb(12, 195, 167);
+  display: flex;
+  flex-direction: column;
+
+  width: 260px;
+  height: 7vh;
+}
+.defaultDr .icono {
+  position: absolute;
+  top: 0;
+}
+.defaultDr .letras {
+  display: none;
+}
+.defaultDr .letras-title {
+  position: absolute;
+
+  bottom: 0;
+}
+/* ! Clase Active Dr */
+
+.sidebar-linked-Dr {
+  display: block;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  text-decoration: none;
+  background-color: #f9c7ff;
+  height: 80px;
+  width: 260px;
+
+  box-shadow: 3px 3px 5px grey;
+}
+.sidebar-linked-Dr .letras-title {
+  display: none;
+}
+.sidebar-linked-Dr .letras {
+  position: relative;
+  right: -30px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #000000;
+}
+.sidebar-linked-Dr .icono {
+  position: relative;
+  top: -10px;
+  left: 10px;
+  color: #000000;
+}
+
+/* ! Clase Active */
+
+.sidebar-linked {
+  display: block;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  transition: all 0.5s;
+  text-decoration: none;
+  background-color: #ffffff;
+  height: 80px;
+  width: 260px;
+
+  box-shadow: 3px 3px 5px grey;
+}
+.sidebar-linked .letras-title {
+  display: none;
+}
+.sidebar-linked .letras {
+  position: relative;
+  right: -30px;
+  font-size: 18px;
+  font-weight: 900;
+  color: #000000;
+}
+.sidebar-linked .icono {
+  position: relative;
+  top: -10px;
+  left: 10px;
+  color: #000000;
+}
+.not-found {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-signin {
+  padding: 15px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  filter: blur(2.5px);
+}
+.capa-ajuste {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1d;
+  opacity: 0.3;
+}
+form {
+  position: relative;
+  z-index: 2;
+
+  border-radius: 20px;
+  width: 450px;
+  height: 500px;
+}
+.contenedor-form {
+  position: relative;
+  z-index: 2;
+  width: 550px;
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgb(37, 37, 37);
+}
+.botones {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.botones a {
+  margin-top: 15px;
+}
+.logout {
+  position: absolute;
+  bottom: 50px;
+  left: 75px;
+}
+.coming {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 45px;
+}
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.wid {
+  width: 10px;
+}
+.cursor {
+  cursor: pointer;
+}
+.ingrese {
+  margin-left: 10px;
+  text-decoration: none;
+  color: yellow !important;
+  font-weight: 600;
+}
+.Margen {
+  margin-left: 330px;
+
+  display: flex;
+}
+.pruebas {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  /* justify-content: ; */
+}
+.cajita {
+  background-color: #f85c70;
+  width: 50px;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  padding-left: 9px;
+}
+.sec-side {
+  width: 550px;
+  height: 100vh;
+  /* background-color: #f85c70; */
+  padding-top: 50px;
+}
+.sec-side-content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.contenido-side {
+  display: flex;
+  /* background-color: #f85c70; */
+  padding: 20px;
+}
+.parrafo-side {
+  font-size: 17px;
+}
+.perfil-pacient {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.datos-side {
+  margin-left: 10px;
+}
+.seccion-izquierda {
+  margin-right: 10px;
+}
+.footer-dashboard {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.estrella {
+  font-size: 22px !important;
+}
+.bienvenida-dasboard {
+  margin-top: 70px;
+}
+.articulo-dash {
+  width: 100%;
+  height: 500px;
+  /* background-color: #f85c70; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.indicador-citas {
+  margin: 10px;
+}
+.tabloide {
+  margin-top: 50px;
+}
+.Margen2 {
+  margin-left: 330px;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 820px;
+  width: 1550px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 820px;
+  width: 1550px;
+}
+.bienvenida-dasboard2 {
+  margin-top: 50px;
+}
+.icono-mapa {
+  font-size: 30px !important;
+  color: rgb(238, 45, 45);
+}
+.block-citas {
+  background-color: #ffffff;
+  width: 90%;
+  height: 80vh;
+  border: #c2c2c2 1px solid;
+  display: flex;
+}
+.block-left {
+  border-right: solid 1px #c2c2c2;
+  width: 35%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #435ebe;
+}
+
+.block-left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  float: left;
+  margin-top: 50px;
+}
+.lista-citas {
+  list-style: none;
+}
+.herramientas {
+  margin-bottom: 20px;
+}
+.icono-herramientas {
+  font-size: 16px !important;
+  margin-left: 7px;
+}
+.icono-citas-func {
+  font-size: 17px !important;
+  margin-right: 10px;
+}
+.cita {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.negativo {
+  margin-left: -30px;
+}
+.bienvenida-citas {
+  margin: 50px 0;
+}
+.block-right {
+  display: flex;
+}
+.denege {
+  color: red !important;
+  margin: 0 20px;
+}
+.acept {
+  margin: 0 20px;
+
+  color: rgb(54, 255, 19) !important;
+}
+.historial {
+  margin-left: 20px;
+}
+.negro {
+  color: #000000 !important;
+}
+/* Loader */
+
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(180deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.loader2 {
+  clip-path: circle(0% at 50% 100%);
+}
+.loader1, .loader1  div {
+  border-radius: 50%;
+	padding: 8px;
+	border: 2px solid transparent ;
+	animation: rotate linear 3.5s infinite;
+	border-top-color: rgba(254, 64, 102,.5);
+	border-bottom-color: rgba(0, 0, 255, .5);
+
+}
+.loader1{
+  border: none;
+}
+.container-loader{
+  top: 0;
+  position: absolute;
+  z-index: 10000;
+  background-color: white;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: circle(150% at 100% 0);
+  transition: clip-path 1.5s ease-in-out;
+}
+
+
+/*  */
+
+.row .col-md-3 li a{
+  transition: all 0.5s !important;
+}
+.link-nav .item {
+  color: #fff;
+  line-height: 4;
+  margin: 1.5em;
+  padding: 0 2em;
+  position: relative;
+}
+.link-nav .item::before{
+  background: #fff;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  position: absolute;
+  transition: all 0.3s;
+  width: 0;
+} 
+.link-nav .item:hover:before {
+  width: 100%;
+}
+.link-nav .item:before {
+  left: 50%;
+}
+.link-nav .item{
+  border: none !important;
+}
+.link-nav .item:hover:before {
+  left: 0;
+} 
+.nav-doc-active{
+  background-color: #0cc3a7 !important;
+}
+.register-alert{
+  color: #f85c70 !important;
+}

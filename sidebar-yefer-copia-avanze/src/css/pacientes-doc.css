@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  color: #444;
+}
+
+.btn-index {
+  background: #0cc3a7;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+}
+.btn-index:hover {
+  background: #289dd2;
+  padding: 3px 8px;
+
+  border: 2px solid #289dd2;
+}
+
+.title-index {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 10px;
+  border-bottom: 2px solid #999;
+}
+
+table {
+  padding: 10px;
+}
+th {
+  color: #289dd2;
+  font-size: 16px;
+  background-color: #cedeeb;
+}
+td {
+  font-size: 14px;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+.container-index {
+  margin: 20px;
+}
+.content-index {
+  margin-left: 300px;
+}
+.container-index .content-index {
+  position: relative;
+  margin-top: 10vh;
+  min-height: 90vh;
+}
+
+.container-index .content-index .content-2-index .solicitudes_nuevas {
+  min-height: 50vh;
+  flex: 5;
+  background: white;
+  margin: 0 25px 25px 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  flex-direction: column;
+}
+
+.container-index .content-index .content-2-index table td:nth-child(1) img {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (max-width: 536px) {
+  .container-index .content-index {
+    justify-content: center;
+  }
+
+  .container-index
+    .content-index
+    .content-2-index
+    .solicitudes_nuevas
+    table
+    th:nth-child(2),
+  .container-index
+    .content-index
+    .content-2-index
+    .solicitudes_nuevas
+    table
+    td:nth-child(2) {
+    display: none;
+  }
+}
